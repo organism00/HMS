@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Geist-Thin';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./assets/fonts/Geist-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Geist-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Geist-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Geist-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/Geist-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Geist-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/Geist-Bold.otf') format('opentype');
+}
+
+body {
+  font-family: Geist-Regular, sans-serif, system-ui !important;
+}
