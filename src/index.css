@@ -26,6 +26,40 @@
   src: url('./assets/fonts/Geist-Bold.otf') format('opentype');
 }
 
+* {
+  box-sizing: border-box !important;
+}
+
 body {
   font-family: Geist-Regular, sans-serif, system-ui !important;
+  font-size: 14px !important;
+}
+
+span,
+button,
+label,
+input,
+select {
+  font-size: 14px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #414141;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
