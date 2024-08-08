@@ -5,7 +5,6 @@ import App from '../pages/layout';
 import Home from '../pages/home';
 import Register from '../pages/auth/Register/Register';
 import Login from '../pages/auth/Login/Login';
-import NotFound from '../pages/error';
 import BookAppointment from '../pages/bookNewAppointment';
 import Overview from '../pages/account/overview';
 import Patient from '../pages/account/patient';
@@ -14,6 +13,7 @@ import Department from '../pages/account/teams';
 import Reports from '../pages/account/reports';
 import Notification from '../pages/account/notification';
 import Settings from '../pages/account/settings';
+import NotFound from '../pages/error';
 
 export const router = createBrowserRouter([
   {
